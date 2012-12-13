@@ -467,7 +467,7 @@ typedef enum gameTableMode
             {
                 cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size: 24.0f];
                 cell.textLabel.numberOfLines = 1;
-                cell.textLabel.textAlignment = NSTextAlignmentLeft;
+                cell.textLabel.textAlignment = NSTextAlignmentCenter;
                 cell.selectionStyle = UITableViewCellSelectionStyleGray;
                 
                 if ([self.task [indexPath.row] isEqualToString:@""])
