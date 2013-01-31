@@ -1,13 +1,7 @@
-//
-//  UITableView+Toches.h
-// 
-//
-//  Created by Dmitry Klimkin on 18/11/12.
-//
-//
-
 #import <UIKit/UIKit.h>
 
+// UITableView subclass to allow subviews handle
+// touches too
 @interface MYTableView : UITableView
 
 @end
